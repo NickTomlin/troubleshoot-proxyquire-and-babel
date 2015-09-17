@@ -1,0 +1,35 @@
+{
+  "name": "troubleshoot-proxyquire-and-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "module.js",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "dependencies": {
+    "babel": "^5.8.21",
+    "babelify": "^6.2.0",
+    "browserify": "^11.1.0",
+    "karma-browserify": "^4.3.0",
+    "karma": "^0.13.9",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-mocha": "^0.1.10",
+    "gulp-rename": "^1.2.2",
+    "phantom-ownpropertynames": "^1.0.0",
+    "proxyquire": "^1.7.2",
+    "proxyquireify": "^3.0.0",
+    "proxyquire-universal": "^1.0.8",
+    "karma-firefox-launcher": "^0.1.6"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.2"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "test:broken": "karma start karma-es6.conf.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
