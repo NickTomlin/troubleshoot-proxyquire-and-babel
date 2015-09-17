@@ -1,5 +1,5 @@
-import assert from 'assert';
-import proxyquire from 'proxyquire';
+var assert = require('assert');
+var proxyquire = require('proxyquire');
 
 describe('module', function () {
   let module;

@@ -1,7 +1,12 @@
-export function wunder () {
+function wunder () {
   return 'ORIGINAL WUNDER';
 }
 
-export function kinder () {
+function kinder () {
   return 'ORIGINAL KINDER';
+}
+
+export default {
+  wunder,
+  kinder
 }
