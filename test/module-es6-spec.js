@@ -6,7 +6,7 @@ describe('module', function () {
 
   beforeEach(function () {
     module = proxyquire('../module.es6', {
-      './bar': {
+      './bar.es6': {
          wunder: function () { return 'wirklich wunderbar'; }
        , kinder: function () { return 'schokolade'; }
       }
